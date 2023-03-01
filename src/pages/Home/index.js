@@ -1,7 +1,8 @@
+import Header from "../../components/Header"
 
 const Home = () => {
     return(
-        <h1>Alura Spaces</h1>
+        <Header />
     )
 }
 

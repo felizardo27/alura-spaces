@@ -1,10 +1,10 @@
-
 import './App.css';
+import Home from './pages/Home';
 
-function App() {
+const App = () => {
   return (
     <div>
-      
+      <Home />
     </div>
   );
 }

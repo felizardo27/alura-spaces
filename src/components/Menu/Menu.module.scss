@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .menu {
     width: 18%;
     
@@ -19,8 +21,8 @@
         &:first-child {
             a {
                 font-weight: 700;
-                color: #7B78E5;
-                font-family: "GandhiSansRegular";
+                color: $roxo;
+                font-family: $fonte-normal;
             }
         }
     }
@@ -35,8 +37,8 @@
     a {
         text-decoration: none;
         font-size: 1.125rem;
-        color: #D9D9D9;
-        font-family: "GandhiSansRegular";
+        color: $cor-do-texto;
+        font-family: $fonte-normal;
     }
 
 }

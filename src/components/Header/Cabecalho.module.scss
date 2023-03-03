@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,7 +21,7 @@
             border-radius: 10px;
             z-index: -1;
             border: 2px solid transparent;
-            background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
+            background: linear-gradient(to right, $rosa, $roxo) border-box;
             -webkit-mask: linear-gradient(#fff 0 0) padding-box, 
                 linear-gradient(#fff 0 0);
             -webkit-mask-composite: xor;
@@ -30,12 +32,12 @@
      &__input {
         width: 80%;
         height: 30px;
-        color: #D9D9D9;
+        color: $cor-do-texto;
         font-size: 1rem;
         border: none;
         background-color: transparent;
         outline: 0;
-        font-family: 'GandhiSansBold';
+        font-family: $fonte-bold;
 
         &::placeholder {
             font-size: 1rem;

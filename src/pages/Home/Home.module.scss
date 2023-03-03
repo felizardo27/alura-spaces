@@ -9,3 +9,11 @@ main {
     margin-top: 2rem;
     
   }
+
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
+  }

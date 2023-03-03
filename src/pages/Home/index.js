@@ -3,6 +3,7 @@ import Footer from "../../components/Footer"
 import Gallery from "../../components/Gallery"
 import Header from "../../components/Header"
 import Menu from "../../components/Menu"
+import Popular from "../../components/Popular"
 import styles from './Home.module.scss'
 
 const Home = () => {
@@ -14,10 +15,11 @@ const Home = () => {
                     <Menu />
                     <Banner />
                 </section>
+                <div className={styles.gallery}>
+                    <Gallery />
+                    <Popular />
+                </div>
             </main>
-            <dvi className={styles.gallery}>
-                <Gallery />
-            </dvi>
             <Footer />
         </>
     )

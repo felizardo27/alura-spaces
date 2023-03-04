@@ -4,7 +4,7 @@ import styles from './Popular.module.scss'
 
 const Popular = () => {
   return (
-    <asside className={styles.populares}>
+    <aside className={styles.populares}>
       <h2>Populares</h2>
       <ul className={styles.populares__imagens}>
         {photosPopular.map((photo) => {
@@ -16,7 +16,7 @@ const Popular = () => {
         })}
       </ul>
       <button>Ver mais fotos</button>
-    </asside>
+    </aside>
   )
 }
 

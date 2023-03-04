@@ -9,6 +9,7 @@ const Cards = ({photos, styles}) => {
           {photos.map(photo => {
             return (
               <Card 
+                key={photo.id}
                 photo={photo}
                 styles={styles}
               />

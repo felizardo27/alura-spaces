@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './Menu.module.scss'
-import home from '../../assets/icones/home-ativo.png'
-import views from '../../assets/icones/mais-vistas-inativo.png'
-import likes from '../../assets/icones/mais-curtidas-inativo.png'
-import news from '../../assets/icones/novas-inativo.png'
-import suprise from '../../assets/icones/surpreenda-me-inativo.png'
+import home from 'assets/icones/home-ativo.png'
+import views from 'assets/icones/mais-vistas-inativo.png'
+import likes from 'assets/icones/mais-curtidas-inativo.png'
+import news from 'assets/icones/novas-inativo.png'
+import suprise from 'assets/icones/surpreenda-me-inativo.png'
 
 const Menu = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import favorito  from'../../../../assets/favorito.png'
-import open  from'../../../../assets/open.png'
+import favorito  from'assets/favorito.png'
+import open  from'assets/open.png'
 
 
 const Card = ({photo, styles}) => {

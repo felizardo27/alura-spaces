@@ -1,6 +1,7 @@
 import React from 'react'
 import photosPopular from './photos-popular.json'
 import styles from './Popular.module.scss'
+import Button from 'components/Button'
 
 const Popular = () => {
   return (
@@ -15,7 +16,7 @@ const Popular = () => {
           )
         })}
       </ul>
-      <button>Ver mais fotos</button>
+      <Button>Ver mais fotos</Button>
     </aside>
   )
 }
